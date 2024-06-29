@@ -1,0 +1,18 @@
+.menu_item {
+  width: 100%;
+  padding: 0 24px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  height: 48px;
+  color: var(--bs-neutral-600);
+  font-size: 16px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
+}
+.menu_item:hover {
+  background-color: var(--bs-primary-50);
+  color: var(--bs-primary-500) !important;
+}

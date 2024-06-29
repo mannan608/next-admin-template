@@ -1,0 +1,43 @@
+/* layout css code */
+.layout-left {
+  width: 260px;
+  background: var(--bs-white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  transition: 0.4s all;
+  border-right: 1px solid var(--bs-neutral-300);
+}
+
+.layout-right {
+  width: calc(100% - 260px);
+  /* height: 100vh; */
+  position: relative;
+  left: 260px;
+  transition: 0.4s all;
+}
+
+.navbar-wrapper {
+  width: calc(100% - 260px);
+  height: 110px;
+  background: var(--bs-white);
+  padding: 0 30px;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  z-index: 998;
+  border-bottom: 1px solid var(--bs-neutral-300);
+  transition: 0.4s all;
+}
+
+.main-content {
+  padding: 130px 30px 50px 30px;
+  min-height: calc(100vh - 70px);
+  max-height: fit-content;
+}
+
+.mobile-nav-toggler {
+  display: none;
+}
